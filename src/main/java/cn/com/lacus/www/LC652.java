@@ -69,14 +69,39 @@ public class LC652 {
             if (root == null) return new ArrayList<>();
             int[] a = changeTree(root);
 
-            int left_i,right_i;
-            int left_j,right_j;
-            for (int i = a.length-1; i > 0; i--) {
-                for (int j = i -1 ; j > 0 ; j--) {
-                    while (j < a.length && a[i] != a[j]) j++;
-                    left_i = 2*i;right_i = left_i+1;
-                    left_j = 2*j;right_j = left_j+1;
+            int left_i, right_i;
+            int left_j, right_j;
 
+            List<Integer> result = new ArrayList<>();
+
+            for (int i = a.length - 1; i > 0; i--) {
+                left_i = 2 * i;
+                right_i = left_i + 1;
+                if ((left_i < a.length && a[left_i] != -1)
+                        || (right_i < a.length && a[right_i] != -1)) {
+                    continue;
+                }
+                for (int j = i - 1; j > 0; j--) {
+                    while (j > 0 && a[i] != a[j]) j--;
+                    result.add(a[i]);
+                    if (i % 2 != j % 2)
+                        continue;
+                    int mid1, mid2;
+                    left_j = 2 * j;
+                    right_j = left_j + 1;
+                    if (!(left_j < a.length && a[left_j] != -1)
+                            && !(right_j < a.length && a[right_j] != -1)) {
+                        mid1 = j;
+                        mid2 = i;
+                        while ((mid1 = mid1 / 2) > 0) {
+                            mid2 = mid2 >> 1;
+                            if (a[mid1] == a[mid2] && mid1 % 2 == mid2 % 2) {
+                                result.add(a[mid1]);
+                                continue;
+                            } else
+                                break;
+                        }
+                    }
                 }
             }
             return null;
