@@ -14,5 +14,7 @@ public class App {
         System.out.println(s);
         s = a.stream().collect(Collectors.joining("-"));
         System.out.println(s);
+        System.out.println("\\n");
+
     }
 }

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d1fe16e-8613-4eec-a1d3-977f24a8afdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +20,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="56" column="62" lean-forward="true" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+            <state relative-caret-position="240">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,9 +50,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LeetCode685.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LeetCode951.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652_0.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java" />
       </list>
     </option>
   </component>
@@ -63,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,12 +104,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597244622069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597549384006" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -128,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC652">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.lacus.www.App" />
       <module name="Demo0" />
@@ -157,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC652" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.LC652" />
       </list>
     </recent_temporary>
   </component>
@@ -178,27 +181,28 @@
       <workItem from="1597227596015" duration="8507000" />
       <workItem from="1597240180728" duration="2787000" />
       <workItem from="1597373273268" duration="187000" />
-      <workItem from="1597373505617" duration="463000" />
+      <workItem from="1597373505617" duration="580000" />
+      <workItem from="1597549319770" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17843000" />
+    <option name="totallyTimeSpent" value="18036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32880434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -209,6 +213,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24964234" />
@@ -303,16 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652_0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -332,8 +327,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/LC652.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="56" column="62" lean-forward="true" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+        <state relative-caret-position="100">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/lacus/www/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
